@@ -33,19 +33,19 @@ my $meta = {
                         test => { requires => { "Test::More" => 0.96 } },
                       },
   "provides"       => {
-                        "Dist::Inkt::DOAP"                         => { file => "lib/Dist/Inkt/DOAP.pm", version => 0.016 },
+                        "Dist::Inkt::DOAP"                         => { file => "lib/Dist/Inkt/DOAP.pm", version => 0.017 },
                         "Dist::Inkt::Role::DetermineRightsFromRdf" => {
                                                                         file => "lib/Dist/Inkt/Role/DetermineRightsFromRdf.pm",
-                                                                        version => 0.016,
+                                                                        version => 0.017,
                                                                       },
-                        "Dist::Inkt::Role::ProcessDOAP"            => { file => "lib/Dist/Inkt/Role/ProcessDOAP.pm", version => 0.016 },
-                        "Dist::Inkt::Role::ProcessDOAPDeps"        => { file => "lib/Dist/Inkt/Role/ProcessDOAPDeps.pm", version => 0.016 },
-                        "Dist::Inkt::Role::RDFModel"               => { file => "lib/Dist/Inkt/Role/RDFModel.pm", version => 0.016 },
-                        "Dist::Inkt::Role::ReadMetaDir"            => { file => "lib/Dist/Inkt/Role/ReadMetaDir.pm", version => 0.016 },
-                        "Dist::Inkt::Role::WriteChanges"           => { file => "lib/Dist/Inkt/Role/WriteChanges.pm", version => 0.016 },
-                        "Dist::Inkt::Role::WriteCOPYRIGHT"         => { file => "lib/Dist/Inkt/Role/WriteCOPYRIGHT.pm", version => 0.016 },
-                        "Dist::Inkt::Role::WriteCREDITS"           => { file => "lib/Dist/Inkt/Role/WriteCREDITS.pm", version => 0.016 },
-                        "Dist::Inkt::Role::WriteDOAP"              => { file => "lib/Dist/Inkt/Role/WriteDOAP.pm", version => 0.016 },
+                        "Dist::Inkt::Role::ProcessDOAP"            => { file => "lib/Dist/Inkt/Role/ProcessDOAP.pm", version => 0.017 },
+                        "Dist::Inkt::Role::ProcessDOAPDeps"        => { file => "lib/Dist/Inkt/Role/ProcessDOAPDeps.pm", version => 0.017 },
+                        "Dist::Inkt::Role::RDFModel"               => { file => "lib/Dist/Inkt/Role/RDFModel.pm", version => 0.017 },
+                        "Dist::Inkt::Role::ReadMetaDir"            => { file => "lib/Dist/Inkt/Role/ReadMetaDir.pm", version => 0.017 },
+                        "Dist::Inkt::Role::WriteChanges"           => { file => "lib/Dist/Inkt/Role/WriteChanges.pm", version => 0.017 },
+                        "Dist::Inkt::Role::WriteCOPYRIGHT"         => { file => "lib/Dist/Inkt/Role/WriteCOPYRIGHT.pm", version => 0.017 },
+                        "Dist::Inkt::Role::WriteCREDITS"           => { file => "lib/Dist/Inkt/Role/WriteCREDITS.pm", version => 0.017 },
+                        "Dist::Inkt::Role::WriteDOAP"              => { file => "lib/Dist/Inkt/Role/WriteDOAP.pm", version => 0.017 },
                       },
   "release_status" => "stable",
   "resources"      => {
@@ -61,7 +61,7 @@ my $meta = {
                                         },
                         X_identifier => "http://purl.org/NET/cpan-uri/dist/Dist-Inkt-DOAP/project",
                       },
-  "version"        => 0.016,
+  "version"        => 0.017,
 };
 
 my %dynamic_config;
