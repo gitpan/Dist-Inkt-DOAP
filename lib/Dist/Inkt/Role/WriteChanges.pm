@@ -1,10 +1,9 @@
 package Dist::Inkt::Role::WriteChanges;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.017';
+our $VERSION   = '0.018';
 
 use Moose::Role;
-use RDF::DOAP::ChangeSets;
 use namespace::autoclean;
 
 with 'Dist::Inkt::Role::RDFModel';
