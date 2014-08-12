@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Dist-Inkt-DOAP
-Upstream-Contact: Toby Inkster (TOBYINK) <tobyink@cpan.org>
+Upstream-Contact:  and Toby Inkster (TOBYINK) <tobyink@cpan.org>
 Source: https://metacpan.org/release/Dist-Inkt-DOAP
 
 Files: Changes
@@ -20,12 +20,6 @@ Files: Changes
 Copyright: Copyright 2014 Toby Inkster.
 License: GPL-1.0+ or Artistic-1.0
 
-Files: COPYRIGHT
- CREDITS
- SIGNATURE
-Copyright: None
-License: public-domain
-
 Files: README
  lib/Dist/Inkt/DOAP.pm
  t/01basic.t
@@ -37,6 +31,12 @@ Files: CONTRIBUTING
  LICENSE
 Copyright: Unknown
 License: Unknown
+
+Files: COPYRIGHT
+ CREDITS
+ SIGNATURE
+Copyright: None
+License: public-domain
 
 Files: Makefile.PL
 Copyright: Copyright 2013 Toby Inkster.
