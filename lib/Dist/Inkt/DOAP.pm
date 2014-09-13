@@ -5,7 +5,7 @@ use warnings;
 package Dist::Inkt::DOAP;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.019';
+our $VERSION   = '0.020';
 
 1;
 
@@ -14,6 +14,8 @@ __END__
 =pod
 
 =encoding utf-8
+
+=for stopwords tarball
 
 =head1 NAME
 

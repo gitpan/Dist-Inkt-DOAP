@@ -1,3 +1,4 @@
+@prefix cpan-uri: <http://purl.org/NET/cpan-uri/terms#> .
 @prefix dc:    <http://purl.org/dc/terms/> .
 @prefix doap:  <http://usefulinc.com/ns/doap#> .
 @prefix doap-changeset: <http://ontologi.es/doap-changeset#> .
@@ -11,6 +12,7 @@
 
 <http://purl.org/NET/cpan-uri/dist/Dist-Inkt-DOAP/project>
 	a                    doap:Project;
+	cpan-uri:x_IRC       <irc://irc.perl.org/#perlrdf>;
 	dc:contributor       <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap-deps:runtime-requirement [ doap-deps:on "Moose 2.0800"^^doap-deps:CpanId ], [ doap-deps:on "Dist::Inkt 0.017"^^doap-deps:CpanId ], [ doap-deps:on "MooX::Struct 0"^^doap-deps:CpanId ], [
 		doap-deps:on "RDF::DOAP::Project 0.007"^^doap-deps:CpanId;
@@ -31,7 +33,7 @@
 	doap:maintainer      <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap:name            "Dist-Inkt-DOAP";
 	doap:programming-language "Perl";
-	doap:release         <http://purl.org/NET/cpan-uri/dist/Dist-Inkt-DOAP/v_0-016>, <http://purl.org/NET/cpan-uri/dist/Dist-Inkt-DOAP/v_0-017>, <http://purl.org/NET/cpan-uri/dist/Dist-Inkt-DOAP/v_0-018>, <http://purl.org/NET/cpan-uri/dist/Dist-Inkt-DOAP/v_0-019>;
+	doap:release         <http://purl.org/NET/cpan-uri/dist/Dist-Inkt-DOAP/v_0-016>, <http://purl.org/NET/cpan-uri/dist/Dist-Inkt-DOAP/v_0-017>, <http://purl.org/NET/cpan-uri/dist/Dist-Inkt-DOAP/v_0-018>, <http://purl.org/NET/cpan-uri/dist/Dist-Inkt-DOAP/v_0-019>, <http://purl.org/NET/cpan-uri/dist/Dist-Inkt-DOAP/v_0-020>;
 	doap:repository      [
 		a doap:GitRepository;
 		doap:browse <https://github.com/tobyink/p5-dist-inkt-doap>;
@@ -97,6 +99,20 @@
 	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Dist-Inkt-DOAP-0.019.tar.gz>;
 	doap:revision        "0.019"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Dist-Inkt-DOAP/v_0-020>
+	a                    doap:Version;
+	dc:identifier        "Dist-Inkt-DOAP-0.020"^^xsd:string;
+	dc:issued            "2014-09-13"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Change;
+			rdfs:label "Support x_IRC.";
+		];
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Dist-Inkt-DOAP-0.020.tar.gz>;
+	doap:revision        "0.020"^^xsd:string.
 
 <http://purl.org/NET/cpan-uri/person/tobyink>
 	a                    foaf:Person;
