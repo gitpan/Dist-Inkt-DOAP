@@ -18,6 +18,7 @@ lib/Dist/Inkt/Role/ProcessDOAP.pm
 lib/Dist/Inkt/Role/ProcessDOAPDeps.pm
 lib/Dist/Inkt/Role/RDFModel.pm
 lib/Dist/Inkt/Role/ReadMetaDir.pm
+lib/Dist/Inkt/Role/Test/Changes.pm
 lib/Dist/Inkt/Role/WriteCOPYRIGHT.pm
 lib/Dist/Inkt/Role/WriteCREDITS.pm
 lib/Dist/Inkt/Role/WriteChanges.pm
