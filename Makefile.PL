@@ -7,7 +7,7 @@ my $meta = {
   "abstract"       => "various DOAP-related roles for Dist::Inkt",
   "author"         => ["Toby Inkster (TOBYINK) <tobyink\@cpan.org>"],
   "dynamic_config" => 0,
-  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.019, CPAN::Meta::Converter version 2.140640",
+  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.023, CPAN::Meta::Converter version 2.140640",
   "keywords"       => [],
   "license"        => ["perl_5"],
   "meta-spec"      => {
@@ -35,20 +35,20 @@ my $meta = {
                         test => { requires => { "Test::More" => 0.96 } },
                       },
   "provides"       => {
-                        "Dist::Inkt::DOAP"                         => { file => "lib/Dist/Inkt/DOAP.pm", version => 0.021 },
+                        "Dist::Inkt::DOAP"                         => { file => "lib/Dist/Inkt/DOAP.pm", version => 0.022 },
                         "Dist::Inkt::Role::DetermineRightsFromRdf" => {
                                                                         file => "lib/Dist/Inkt/Role/DetermineRightsFromRdf.pm",
-                                                                        version => 0.021,
+                                                                        version => 0.022,
                                                                       },
-                        "Dist::Inkt::Role::ProcessDOAP"            => { file => "lib/Dist/Inkt/Role/ProcessDOAP.pm", version => 0.021 },
-                        "Dist::Inkt::Role::ProcessDOAPDeps"        => { file => "lib/Dist/Inkt/Role/ProcessDOAPDeps.pm", version => 0.021 },
-                        "Dist::Inkt::Role::RDFModel"               => { file => "lib/Dist/Inkt/Role/RDFModel.pm", version => 0.021 },
-                        "Dist::Inkt::Role::ReadMetaDir"            => { file => "lib/Dist/Inkt/Role/ReadMetaDir.pm", version => 0.021 },
-                        "Dist::Inkt::Role::Test::Changes"          => { file => "lib/Dist/Inkt/Role/Test/Changes.pm", version => 0.021 },
-                        "Dist::Inkt::Role::WriteChanges"           => { file => "lib/Dist/Inkt/Role/WriteChanges.pm", version => 0.021 },
-                        "Dist::Inkt::Role::WriteCOPYRIGHT"         => { file => "lib/Dist/Inkt/Role/WriteCOPYRIGHT.pm", version => 0.021 },
-                        "Dist::Inkt::Role::WriteCREDITS"           => { file => "lib/Dist/Inkt/Role/WriteCREDITS.pm", version => 0.021 },
-                        "Dist::Inkt::Role::WriteDOAP"              => { file => "lib/Dist/Inkt/Role/WriteDOAP.pm", version => 0.021 },
+                        "Dist::Inkt::Role::ProcessDOAP"            => { file => "lib/Dist/Inkt/Role/ProcessDOAP.pm", version => 0.022 },
+                        "Dist::Inkt::Role::ProcessDOAPDeps"        => { file => "lib/Dist/Inkt/Role/ProcessDOAPDeps.pm", version => 0.022 },
+                        "Dist::Inkt::Role::RDFModel"               => { file => "lib/Dist/Inkt/Role/RDFModel.pm", version => 0.022 },
+                        "Dist::Inkt::Role::ReadMetaDir"            => { file => "lib/Dist/Inkt/Role/ReadMetaDir.pm", version => 0.022 },
+                        "Dist::Inkt::Role::Test::Changes"          => { file => "lib/Dist/Inkt/Role/Test/Changes.pm", version => 0.022 },
+                        "Dist::Inkt::Role::WriteChanges"           => { file => "lib/Dist/Inkt/Role/WriteChanges.pm", version => 0.022 },
+                        "Dist::Inkt::Role::WriteCOPYRIGHT"         => { file => "lib/Dist/Inkt/Role/WriteCOPYRIGHT.pm", version => 0.022 },
+                        "Dist::Inkt::Role::WriteCREDITS"           => { file => "lib/Dist/Inkt/Role/WriteCREDITS.pm", version => 0.022 },
+                        "Dist::Inkt::Role::WriteDOAP"              => { file => "lib/Dist/Inkt/Role/WriteDOAP.pm", version => 0.022 },
                       },
   "release_status" => "stable",
   "resources"      => {
@@ -65,7 +65,7 @@ my $meta = {
                         x_identifier => "http://purl.org/NET/cpan-uri/dist/Dist-Inkt-DOAP/project",
                         x_IRC        => "irc://irc.perl.org/#perlrdf",
                       },
-  "version"        => 0.021,
+  "version"        => 0.022,
 };
 
 my %dynamic_config;
